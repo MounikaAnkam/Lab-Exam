@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		9F63F5281AB1DC41007720A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63F5271AB1DC41007720A8 /* AppDelegate.swift */; };
 		9F63F52B1AB1DC41007720A8 /* LabExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F63F5291AB1DC41007720A8 /* LabExam.xcdatamodeld */; };
-		9F63F52D1AB1DC41007720A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63F52C1AB1DC41007720A8 /* ViewController.swift */; };
 		9F63F5301AB1DC41007720A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F63F52E1AB1DC41007720A8 /* Main.storyboard */; };
 		9F63F5321AB1DC41007720A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F63F5311AB1DC41007720A8 /* Images.xcassets */; };
 		9F63F5351AB1DC41007720A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F63F5331AB1DC41007720A8 /* LaunchScreen.xib */; };
 		9F63F5411AB1DC41007720A8 /* LabExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63F5401AB1DC41007720A8 /* LabExamTests.swift */; };
+		9F63F54B1AB1DD90007720A8 /* RollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63F54A1AB1DD90007720A8 /* RollViewController.swift */; };
+		9F63F54D1AB1E2BC007720A8 /* StatisticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63F54C1AB1E2BC007720A8 /* StatisticsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		9F63F5261AB1DC41007720A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F63F5271AB1DC41007720A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F63F52A1AB1DC41007720A8 /* LabExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabExam.xcdatamodel; sourceTree = "<group>"; };
-		9F63F52C1AB1DC41007720A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F63F52F1AB1DC41007720A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F63F5311AB1DC41007720A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F63F5341AB1DC41007720A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9F63F53A1AB1DC41007720A8 /* LabExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F63F53F1AB1DC41007720A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F63F5401AB1DC41007720A8 /* LabExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabExamTests.swift; sourceTree = "<group>"; };
+		9F63F54A1AB1DD90007720A8 /* RollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollViewController.swift; sourceTree = "<group>"; };
+		9F63F54C1AB1E2BC007720A8 /* StatisticsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				9F63F5271AB1DC41007720A8 /* AppDelegate.swift */,
-				9F63F52C1AB1DC41007720A8 /* ViewController.swift */,
 				9F63F52E1AB1DC41007720A8 /* Main.storyboard */,
 				9F63F5311AB1DC41007720A8 /* Images.xcassets */,
 				9F63F5331AB1DC41007720A8 /* LaunchScreen.xib */,
 				9F63F5291AB1DC41007720A8 /* LabExam.xcdatamodeld */,
 				9F63F5251AB1DC41007720A8 /* Supporting Files */,
+				9F63F54A1AB1DD90007720A8 /* RollViewController.swift */,
+				9F63F54C1AB1E2BC007720A8 /* StatisticsTableViewController.swift */,
 			);
 			path = LabExam;
 			sourceTree = "<group>";
@@ -215,8 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F63F52D1AB1DC41007720A8 /* ViewController.swift in Sources */,
+				9F63F54D1AB1E2BC007720A8 /* StatisticsTableViewController.swift in Sources */,
 				9F63F52B1AB1DC41007720A8 /* LabExam.xcdatamodeld in Sources */,
+				9F63F54B1AB1DD90007720A8 /* RollViewController.swift in Sources */,
 				9F63F5281AB1DC41007720A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

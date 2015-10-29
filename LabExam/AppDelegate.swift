@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LabExam
 //
-//  Created by Jaini,Santhoshi on 3/12/15.
-//  Copyright (c) 2015 Santhoshi. All rights reserved.
+//  Created by Mounika Ankam on 3/12/15.
+//  Copyright (c) 2015 Mounika Ankam. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    var differences:[Int] = []
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
